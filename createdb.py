@@ -12,6 +12,7 @@
 ##
 ##mycursor.execute("create table flight_master (flt_no char(4) PRIMARY KEY, source_city varchar(20) NOT NULL, destination_city varchar(20) NOT NULL, departure char(10) NOT NULL, arrival char(10) NOT NULL, total_eco_seats integer, total_prem_seats integer, cost_eco float, cost_prem float)")
 ##mycursor.execute("show tables")
+
 ##for x in mycursor:
 ##    print(x)
 ##mycursor.execute('insert into flight_master values("F001","Chennai","Delhi","1200 hours","1600 hours",30,30,500,1000)')
@@ -81,3 +82,4 @@
 ##mydb.commit()
 ##mycursor.close()
 ##mydb.close()
+
