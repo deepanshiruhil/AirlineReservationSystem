@@ -28,7 +28,8 @@
 ##mycursor.execute('insert into flight_master values("F011","Chennai","Delhi","2100 hours","0200 hours",30,30,400,900)')
 ##mycursor.execute('insert into flight_master values("F012","Mumbai","Delhi","1600 hours","1800 hours",30,30,500,1000)')
 ##
-##
+
+
 ##mycursor.execute("create table flight_availability (flt_no char(4), flt_date date, eco_available integer, prem_available integer, PRIMARY KEY(flt_no,flt_date), FOREIGN KEY(flt_no) REFERENCES flight_master(flt_no))")
 ##mycursor.execute('insert into flight_availability values("F001","2021/03/28",25,25)')
 ##mycursor.execute('insert into flight_availability values("F001","2021/03/29",25,25)')
@@ -82,4 +83,5 @@
 ##mydb.commit()
 ##mycursor.close()
 ##mydb.close()
+
 
